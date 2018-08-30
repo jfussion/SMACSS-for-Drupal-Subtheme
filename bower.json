@@ -1,0 +1,22 @@
+{
+  "name": "him",
+  "description": "A custom theme for HIM website",
+  "main": "bower.json",
+  "authors": [
+    "Joseph Edsel Bonilla <bonillajeb@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "horizon-ministries.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "css-reset-and-normalize-sass": "^0.1.2"
+  }
+}

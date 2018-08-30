@@ -1,0 +1,22 @@
+{
+  "name": "him",
+  "version": "1.0.0",
+  "description": "A custom theme for HIM website",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.8.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-shell": "^0.4.2",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "author": "Joseph Edsel Bonilla <bonillajeb@gmail.com>",
+  "license": "ISC"
+}
